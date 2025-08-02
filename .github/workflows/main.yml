@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Say hello!
-        run: echo "Hello, GitHub Actions!"
+        run: echo "Hello, my secret is ${{ secrets.MY_SECRET }}"
